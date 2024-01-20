@@ -25,5 +25,20 @@ return {
         },
       },
     },
+
+    default_component_configs = {
+      git_status = {
+        symbols = {
+          added = "A",
+          modified = "M",
+          deleted = "x",
+          untracked = "?",
+          ignored = "I",
+          staged = "S",
+          unstaged = "U",
+          conflicted = "C",
+        },
+      },
+    },
   },
 }
