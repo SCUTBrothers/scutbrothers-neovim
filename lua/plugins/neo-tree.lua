@@ -14,6 +14,7 @@ return {
       desc = "Toggle NeoTree",
     },
   },
+
   opts = {
     filesystem = {
       window = {

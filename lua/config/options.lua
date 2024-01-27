@@ -7,3 +7,5 @@ local opt = vim.opt
 opt.encoding = "utf-8"
 opt.fenc = "utf-8"
 opt.fencs = "utf-8"
+opt.list = false
+opt.background = "dark"
