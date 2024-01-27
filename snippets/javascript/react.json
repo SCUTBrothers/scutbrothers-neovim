@@ -1,0 +1,6 @@
+{
+  "test snippets": {
+    "prefix": "testsnip",
+    "body": ["this is a test snippet"]
+  }
+}

@@ -13,8 +13,13 @@ map("n", ":", ";", { remap = false })
 map("n", "H", "^", { desc = "move to line start" })
 map("n", "L", "$", { desc = "move to line start" })
 
-map("i", ";", ":", { desc = "move to line start", remap = false, silent = true })
-map("i", ":", ";", { desc = "move to line start", remap = false, silent = true })
+-- remap key in insert mode
+map("i", ";", ":", { desc = "remap", remap = false, silent = true })
+map("i", ":", ";", { desc = "remap", remap = false, silent = true })
+map("i", "'", '"', { desc = "remap", remap = false, silent = true })
+map("i", '"', "'", { desc = "remap", remap = false, silent = true })
+
+-- remap change in normal mode
 
 -- buffers
 --
